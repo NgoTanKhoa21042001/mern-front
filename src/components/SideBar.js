@@ -11,6 +11,7 @@ const SideBar = () => {
           <ListGroup.Item key={i}>{room}</ListGroup.Item>
         ))}
       </ListGroup>
+      <h2>Members</h2>
     </div>
   );
 };
